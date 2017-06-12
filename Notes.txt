@@ -1,0 +1,30 @@
+slides.com/dtauer/wc2017
+
+Create a Github.com account
+
+Download the Desktop App
+http://desktop.github.com
+
+Use Visual Studio Code
+
+Mon-Tue
+Introduction to Github
+Lots of HTML/CSS
+Build an Instagram Interface
+Flexbox / CSS Grid
+Publishing to Github Pages
+
+Wed-Fri
+Lots of JavaScript
+ES6 / ES7 Features
+Making the Instagram Web App Dynamic
+Introduction to Node.js
+HTML Templates with Pug
+Mongo Database
+
+github
+Clone: Download a Copy
+Fork - Copy project to your account
+To Contribute:
+1. Fork
+2. Clone Your Copy
