@@ -1,0 +1,28 @@
+Notes
+wesbos.com/courses
+javascript30.com
+1. Drumkit
+2. Fun with HTML5 Canvas
+3. Sticky nav
+4. Whack a Mole Game
+
+
+flexbox.io - what the flexbox
+
+images - to use unsplash.it
+http://unsplash.it/
+
+Grid Gard to learn how to use CSS Grid
+cssgridgarden.com
+
+Grid is not supported yet in all browsers
+Can chack on 
+caniuse.com
+
+
+Responsive
+Used to design to the ipad 1024 X 768
+now we just base it off the content - when it starts  looking bad we make a change
+
+Emmet Review
+Install a google chrome plugin - can view on multiple devices at one time

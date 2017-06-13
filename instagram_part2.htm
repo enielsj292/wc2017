@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instragram Project - Part 2</title>
+    <style>
+    body {
+        background-color: deepskyblue;
+    }
+    </style>
+</head>
+<body>
+    <h1>Instagram Project-Part 2</h1>
+    <p>Let's continue working on our Instagram page</p>
+
+    <h3>Flex Properties</h3>
+       <p> First let's add more control over the sizing of our profile image and profile information</p>
+       <p>Open index page and style sheet from yesterday</p>
+       <p>Add the following to your styles.css </p>
+        <p><img src="graphics/flex.jpg" alt="flex" /></p>
+        <ul>
+            <li>flex-grow: how to grow</li>
+            <li>flex-shrink: how to shrink</li>
+            <li>flex-basis: original size (optimal)</li>
+        </ul>
+        <p>Can set them to 0,1,2 - 0 means don't grow or shrink.  1 means you can grow or shrink - 2 means you would grow/shrink more</p>
+        <p>Let's see what happens if we change them to a 1 - and resize your browser window to see how it responds</p>
+          <p><img src="graphics/flex2.jpg" alt="flex" /></p>
+          <p>We really don't want our image to grow or shrink so let's change the flex properties for the image</p>
+          <p><img src="graphics/flex3.jpg" alt="flex" /></p>
+          <p>The profile information - we don't really need to specify the size so it allows it to be responsive to the window</p>
+          <p><img src="graphics/flex4.jpg" alt="flex" /></p>
+          <p>Let's add some margin to the left so the words are not so close to the picture</p>
+            <p><img src="graphics/flex5.jpg" alt="flex" /></p>
+              <p>Save and test</p>
+             <p><img src="graphics/flex6.jpg" alt="flex" /></p>
+            <h3>Style Unordered List</h3>
+            <p>Let's get our unordered list to display horizontally and faced more evenly</p>
+            <p>First let's give it a class on our index page</p>
+             <p><img src="graphics/meta.jpg" alt="meta" /></p>
+             <p>Now use flex display to style it</p>
+             <p><img src="graphics/meta2.jpg" alt="meta" /></p>
+             <p>Save and test</p>
+             <p><img src="graphics/meta3.jpg" alt="meta" /></p>
+             <h3>Add a Google font to the body of your page</h3>
+             <p>Review how to add a google font to the body of our page - I chose Roboto Condensed - make sure you add the link and add it to the styles</p>
+             <h3>Add Images</h3>
+             <p>First let's add the html</p>
+             <p><img src="graphics/images.jpg" alt="images" /></p>
+             <p>Now let's add a random pic</p>
+             <p><img src="graphics/images2.jpg" alt="images" /></p>
+             <p>Now let's copy it and add 4 more - so 5 images total - can highlight NEW TRICK!!! press alt + shift + down</p>
+             <p><img src="graphics/images3.jpg" alt="images" /></p>
+              <p>Save and test</p>
+             <p><img src="graphics/images4.jpg" alt="images" /></p>
+              <p>Now let's make it look better! We want it to wrap, add some space.  We want only the inner wrapper inside the images to wrap - so have to make a new rule</p>
+             <p><img src="graphics/images5.jpg" alt="images" /></p>
+             <p>Save and test</p>
+             <p><img src="graphics/images6.jpg" alt="images" /></p>
+             <p>I don't like how it puts the space in the middle of the 2nd row - Flex is great for 1 row - but doesn't work as well when we get to more than one row of content! Time to learn CSS Grid</p>
+             <h2>CSS Grid</h2>
+             <p>This is great for 2 Dimensional layouts (rows AND columns)</p>
+             <p>Let's change our .images .inner class on our css page</p>
+            <p><img src="graphics/grid.jpg" alt="grid" /></p>
+             <p>Save and test</p>
+             <p><img src="graphics/grid2.jpg" alt="grid" /></p>
+             <p>Notice it is just 1 column - so we need to tell it to be 3 columns</p>
+             <p><img src="graphics/grid3.jpg" alt="grid" /></p>
+             <p>Save and test</p>
+             <p><img src="graphics/grid4.jpg" alt="grid" /></p>
+             <p>Let's add some space</p>
+             <p><img src="graphics/grid5.jpg" alt="grid" /></p>
+             <p>Now we need to make sure our images are being responsive to the size of window notice they are going past the right side</p>
+             <p>We are going to set the max-width of all our images to 100%</p>
+             <p><img src="graphics/images7.jpg" alt="images" /></p>
+             <p>If you want you can change the images to a specific image</p>
+            <p><img src="graphics/grid6.jpg" alt="grid" /></p>
+            <h3>Add support for older Browsers</h3>
+            <p>Sometimes older browsers do not support the new code - check out <a href="http://caniuse.com" target="blank">caniuse.com</a> to check.</p>
+            <p><img src="graphics/grid7.jpg" alt="grid" /></p>
+            <p>Notice if you hover over it - it tells you how to help fix it.</p>
+            <p><img src="graphics/grid8.jpg" alt="grid" /></p>
+            <p>Let's go to the styles and add a line</p>
+            <p><img src="graphics/grid9.jpg" alt="grid" /></p>
+            <p>Save and test in Explorer or Edge</p>
+            <p>Can add one more safety precaution</p>
+            <p><img src="graphics/grid10.jpg" alt="grid" /></p>
+            <h3>Make the Numbers Bold</h3>
+            <p>Let's make the numbers in our profile section bold - need to add some html so use the index page</p>
+            <p><img src="graphics/strong.jpg" alt="strong" /></p>
+
+            <h3>Make Image Hover Feature</h3>
+            <p>Add a class after the images</p>
+             <p><img src="graphics/hover.jpg" alt="hover" /><img src="graphics/hover2.jpg" alt="hover" /></p>
+             <p>Now let's add some style</p>
+             <p><img src="graphics/hover3.jpg" alt="hover" /></p>
+             <p>** rgba allows for transparency - or opacity - 1 is 100% opacity - 0 is no opacity - so .5 is 50% opacity
+                 <p>Now let's position it!</p>
+                 <p><img src="graphics/hover4.jpg" alt="hover" /></p>
+                 <p>Notice that didn't really work - just puts it in the corner of the browswer.  Need to position the div the images were in.</p>
+                  <p><img src="graphics/hover5.jpg" alt="hover" /></p>
+                  <p>Let's adjust the width and height, change text color to white and center align</p>
+                  <p><img src="graphics/hover6.jpg" alt="hover" /></p>
+                  <p>Let's try to center the text vertically by using padding</p>
+                  <p><img src="graphics/hover7.jpg" alt="hover" /></p>
+                  <p>Save and Test</p>
+                  <p><img src="graphics/hover8.jpg" alt="hover" /></p>
+                  <p>Notice a little shadow at the bottom and side - let's add line-height - then can either adjust size of images or change the size of the gap.</p>
+                   <p><img src="graphics/hover9.jpg" alt="hover" /></p>
+            <h3>Let's ANIMATE it!</h3>
+            <p>Let's move the cover to the bottom and then when we put the mouse over the pic that it slides up from the bottom.</p>
+            <p><img src="graphics/animate.jpg" alt="animate" /></p>
+            <p>Now let's hide the overflow of the image</p>
+             <p><img src="graphics/animate2.jpg" alt="animate" /></p>
+             <p>Now make the cover move to the top when they hover over it.</p>
+             <h1>....Look up - how to hover over where the answer is</h1>
+             <p><img src="graphics/animate3.jpg" alt="animate" /></p>
+             <p>Now let's animate it - add the transition!</p>
+             <p><img src="graphics/animate4.jpg" alt="animate" /><img src="graphics/animate5.jpg" alt="animate" /></p> 
+             <p>Can also fade different colors also </p>
+             <img src="graphics/animate6.jpg" alt="animate" />
+             <h3>Style the Link</h3>
+             <p>Style the links and the hover option</p>
+              <p><img src="graphics/link.jpg" alt="link" /></p>
+              <p><img src="graphics/link2.jpg" alt="link" /></p>
+              <p>Let's add an emoji before it- visit <a href="https://emojipedia.org/" target="blank">https://emojipedia.org/</a>or <a href="https://www.emojione.com/" target="blank">https://www.emojione.com/</a></p>
+               <p><img src="graphics/link3.jpg" alt="link" /></p>
+               <p>Save and test</p>
+                <p><img src="graphics/link4.jpg" alt="link" /></p>
+                <h3>Sticky Header</h3>
+                <p>Let's make our header stick to the top even when we scroll</p>
+                <p><img src="graphics/header7a.jpg" alt="header" /></p>
+                <p>Now let's make it go across the whole page:</p>
+                  <p><img src="graphics/header7.jpg" alt="header" /></p>
+                  <p>Notice things scroll under it and then the images go over it.</p>
+                  <p><img src="graphics/header8.jpg" alt="header" /></p>
+                  <p>Now we need to add margin-top to the profile area - so that it starts under the header.
+                      <p><img src="graphics/header9.jpg" alt="header" /></p>
+                      <h3>Javascript - to add and remove class</h3>
+                 <p>Now we can have our header get smaller as they scroll down - going to use Javascript!</p>
+                 <p><img src="graphics/js.jpg" alt="js" /></p>
+                 <p>Add the Javascript to the bottom of the index page</p>
+                  <p><img src="graphics/js2.jpg" alt="js" /></p>
+                  <p>Save and test - make sure you have to scroll and see if it gets smaller when you scroll down</p>
+                  <p>Now animate itso it grows and shrinks(transtion)!</p>
+                   <p><img src="graphics/js3.jpg" alt="js" /></p>
+                   <h2>Make it Responsive - Media Queries</h2>
+                   <p>Used to design to the ipad 1024 X 768<br / >
+                    Now we just base it off the content - when it starts  looking bad we make a change</p>
+                    <p>Add a Media Query at 1000 - because when the scroll bar appears it takes some of the space</p>
+                    <p>Use the inspector - developer tools to resize the window
+                     <p><img src="graphics/media.jpg" alt="media" /></p>
+                     <p>Let's make another query around the 630 mark - first let's make it only 2 columns of images instead of 3
+                         <p><img src="graphics/media2.jpg" alt="media" /></p>
+                         <p>Save and Test</p>
+                         <p><img src="graphics/media3.jpg" alt="media" /></p>
+                         <p>Let's change the profile area so the picture is on the top and then the content is below it</p>
+                         <p><img src="graphics/media4.jpg" alt="media" /></p>
+                         <p>Now adjust the header so the buttons and everything looks great</p>
+                         <p><img src="graphics/media5.jpg" alt="media" /></p>
+                         <p>Let's make it so the text box wraps first - by changing the order.  First have to give it a class</p>
+                         <p><img src="graphics/media6.jpg" alt="media" /></p>
+                         <P>Now add the styles</p>
+                         <p><img src="graphics/media7.jpg" alt="media" /></p>
+                         <p>Change to add a little more space around:</p>
+                          <p><img src="graphics/media8.jpg" alt="media" /></p>
+</body>
+</html>
