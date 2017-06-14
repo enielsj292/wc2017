@@ -26,3 +26,6 @@ now we just base it off the content - when it starts  looking bad we make a chan
 
 Emmet Review
 Install a google chrome plugin - can view on multiple devices at one time
+
+Photoshop Template for the Instagram page
+http://www.uipixels.com/instagram-website-template-psd/

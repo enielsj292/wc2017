@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add JS to Instagram</title>
+    <style>
+    body {
+        font-family: "Tahoma";
+        background: #E0F2F7;
+    }
+    </style>
+</head>
+<body>
+    <h1>Add Javascript to Instagram Project</h1>
+    <p>Let's make our page more dynamic and add some javascript to it!</p>
+    <h2>Make Javascript page</h2>
+    <p>File new - save as script.js in your instagram folder</p>
+    <p>Copy and paste the script that we wrote at the bottom of the instagram index.html page</p>
+    <p><img src="graphics/jsinsta.jpg" alt="jsinsta" /></p>
+    <p>Erase the script tags - not needed since it is now a javascript file</p>
+    <p><img src="graphics/jsinsta2.jpg" alt="jsinsta" /></p>
+    <p>Now we need to add a link to our script.js page - add the following to your index.html page</p>
+    <p><img src="graphics/jsinsta3.jpg" alt="jsinsta" /></p>
+
+    <h2>Let's add more Javascript</h2>
+     <p><img src="graphics/jsinsta4.jpg" alt="jsinsta" /></p>
+     <p>Save and test and view the console log</p>
+    <p><img src="graphics/jsinsta5.jpg" alt="jsinsta" /></p>
+    <p>Now let's make the images clickable</p>
+    <p><img src="graphics/jsinsta6.jpg" alt="jsinsta" /></p>
+    <p>Save and test and view the console log</p>
+    <p><img src="graphics/jsinsta7.jpg" alt="jsinsta" /></p>
+    <p>Add the click event</p>
+    <p><img src="graphics/jsinsta8.jpg" alt="jsinsta" /></p>
+    <p>Notice in the console nothing is showing up - when you click it is a link and right now it is not linked to anything - so it is refreshing the page- so happening so quickly.  We need to tell Javascript to have it not refresh the page</p>
+    <p><img src="graphics/jsinsta9.jpg" alt="jsinsta" />Save and test  <img src="graphics/jsinsta10.jpg" alt="jsinsta" /></p>
+    <h2>Clicked Image pulls up larger Image</h2>
+    <p>We need to find out the source of our image - and then have it pull that source and find that same picture but larger</p>
+    <p><img src="graphics/large1.jpg" alt="large" />Save and test<img src="graphics/large2.jpg" alt="large" /> </p>
+    <p>Need a place for new image to go - add the following code to index page</p>
+     <p><img src="graphics/large.jpg" alt="large" /></p>
+     <p>Now add the JavaScript to add the image</p>
+      <p><img src="graphics/large3.jpg" alt="large" /></p>
+      <p>Now add the following:</p>  
+      <p><img src="graphics/large4.jpg" alt="large" /></p>
+      <p>Save and test - the larger image should appear at the bottom of the screen - you may need to scroll down.</p>
+      <h2>Style the Full Size Image</h2>
+      <p>Let's hard code an image in there for now so we can get it styled</p>
+      <p>Add the code to your index page</p>
+      <p><img src="graphics/lgstyle.jpg" alt="large" /></p>
+      <p>Now add styles to our stylesheet - let's add them above the media queries</p>
+      <p><img src="graphics/lgstyle2.jpg" alt="large" /></p>
+      <p>Try on your own first!</p>
+      <p><img src="graphics/lgstyle3.jpg" alt="large" /></p>
+      <p>Now that we have it styled right - let's remove it from the index page - so we use javascript to load the picture when clicked</p>
+      <p><img src="graphics/lgstyle4.jpg" alt="large" /></p>
+      <p>Now it is still showing the dark rectangle - we need to hide that until an image is clicked - add the following CSS</p>
+      <p><img src="graphics/lgstyle5.jpg" alt="large" /></p>
+        <p>Add the class to the html</p>
+        <p><img src="graphics/lgstyle6.jpg" alt="large" /></p>
+        <h2>Add/Remove class with Javascript</h2>
+        <p>Go to your script page</p>
+        <p><img src="graphics/remove.jpg" alt="large" /></p>
+        <p>Save and test</p>
+        <p>Now the bigger picture just stays there - now we want to make it so when we click on the big picture - it goes back to hidden</p>
+          <p><img src="graphics/remove2.jpg" alt="large" /></p>
+              <p><img src="graphics/remove3.jpg" alt="large" /></p>
+        <h2>Load Pictues Dynamically</h2>
+        <p><a href="http://unsplash.it/" target="blank">Unsplash it</a> - has a list option so you can load the images dynamically.  It is called a JSON file - JavaScript Object Notation</p>
+        <p>First we need to get the data</p>
+        <p>Create a new file named <strong>data.html</strong></p>
+        <p><img src="graphics/data.jpg" alt="data" /></p>
+        <p>Add the following:</p>
+         <p><img src="graphics/data2.jpg" alt="data" /></p>
+         <p>Add fetch</p>
+         <p><img src="graphics/data3.jpg" alt="data" /></p>
+         <p>To test would need to click on the network tab of the console
+             <p><img src="graphics/data4.jpg" alt="data" /></p>
+        <p>Add the following code</p>
+         <p><img src="graphics/data5.jpg" alt="data" /></p>
+         <p>Update the code to convert to JSON data</p>
+        <p><img src="graphics/data6.jpg" alt="data" /></p>
+        <p>Let's log the data</p>
+        <p><img src="graphics/data7.jpg" alt="data" /></p>
+        <p>Add a catch promise - so if something didn't work our whole page wouldn't go down</p>
+        <p><img src="graphics/data8.jpg" alt="data" /></p>
+        <h2>Work with the data</h2>
+        <p>Now that we have the data let's work with it</p>
+        <p>Let's have it get a random number so it displays different pictures</p>
+          <p><img src="graphics/data9.jpg" alt="data" /> Save and Test - console log should look like: <img src="graphics/data10.jpg" alt="data" /> </p>
+          <p>Let's add some comments so we understand what the code is doing</p>
+           <p><img src="graphics/data11.jpg" alt="data" /></p>
+</body>
+</html>
