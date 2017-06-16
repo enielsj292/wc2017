@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Node</title>
+    <style>
+        body{
+            font-family: "Tahoma";
+            background: #E3F6CE;
+        }
+    </style>
+</head>
+<body>
+    <h1>Node</h1>
+    <ol>
+        <li>Go to <a href="http://www.github.com" target="blank">https://github.com/</a> and create a new repository</li>
+        <li>name: wc-node-server</li>
+        <li>description: Example using Node, Express, and Pug</li>
+        <li>Initialize with a README<br / >
+        <img src="graphics/node.jpg" alt="node" /></li>
+        <li>Clone the repository to your computer<br />
+        <img src="graphics/node2.jpg" alt="node" /></li>
+        <li>Open the folder with Visual Studio Code</li>
+    </ol>
+    <p><a href="https://nodejs.org/en/" target="blank">https://nodejs.org/en/</a> Download current version</p>
+    <p>Open Command line - Ctrl + ` (back tick)
+    <p>Type npm init </p>
+    <p><img src="graphics/node3.jpg" alt="node" /></p>
+    <p>Keep hitting enter</p>
+       <p><img src="graphics/node4.jpg" alt="node" /></p>
+       <h2>Install Dependency</h2>
+       <ol>
+           <li>npm install express -S</li>
+           <li>npm install pug -S</li>
+           <li>npm install nodemon -D</li>
+       </ol>
+
+    <h2>Create a new Javascript Page</h2>
+    <p>Create a new file named index.js</p>
+    <p>Type the following code</p>
+     <p><img src="graphics/js.jpg" alt="js" /></p>
+
+     <p>See if the server is running - using the command line</p>
+     <p><img src="graphics/js2.jpg" alt="js" /></p>
+
+     <h2>Show the home page</h2>
+     <p>Add the following code:</p>
+      <p><img src="graphics/js3.jpg" alt="js" /></p>
+      <p>Restart server - in command line type <strong>Ctrl + C</strong></p>
+    <p>Save and test - open chrome and type in localhost:3000 in the address bar</p>
+    <p><img src="graphics/js4.jpg" alt="js" /></p>
+    <h2>Add to package JSON</h2>
+    <p>We don't want to have to restart the server everytime - that is annoying so we are going to add a script to our package JSON page</p>
+    <p><img src="graphics/json.jpg" alt="json" /></p>
+    <p>Cancel the server so it can get the changes - in command line type <strong>Ctrl + C</strong></p>
+    <p>Type <strong>npm run dev</strong> in the command line</p>
+       <p><img src="graphics/json2.jpg" alt="json" /></p>
+       <h2>Using Pug to create Templates</h2>
+       <p>Create nice looking templates and easy to update them and creates the web pages for your</p>
+       <p>Make a new folder named views <img src="graphics/pug.jpg" alt="pug" /></p>
+       <p>Make a new file named template.pug saved in your new views folder</p>
+       <p><img src="graphics/pug2.jpg" alt="pug" /></p>
+       <p>Just make sure you are very careful with your indenting and spacing with pug</p>
+        <p><img src="graphics/pug3.jpg" alt="pug" /></p>
+        <p>Add links to other pages (can use alt+shift_down)</p>
+        <p><img src="graphics/pug4.jpg" alt="pug" /></p>
+        <p>Add content section</p>
+        <p><img src="graphics/pug5.jpg" alt="pug" /></p>
+        <p>Now we need to tell our index file we are using pug go to index.js page</p>
+        <p><img src="graphics/pug6.jpg" alt="pug" /></p>
+        <p>Save and Test</p>
+        <p><img src="graphics/pug7.jpg" alt="pug" /></p>
+        <p>Have the content section be a block - so that we can have it be different for each page</p>
+        <p><img src="graphics/pug8.jpg" alt="pug" /></p>
+        <h2>Make Index (Home) Page</h2>
+        <p>Create a new file in the views folder save as <strong>index.pug</strong></p>
+        <p>Add the following code</p>
+        <p><img src="graphics/index.jpg" alt="index" /></p>
+        <p>Tell our js page to load the index page instead of the template</p>
+            <p><img src="graphics/index2.jpg" alt="index" /></p>
+        <h2>Create About and Contact Pages</h2>
+        <p>In the views folder create an about.pug file and contact.pug page and add a little contact just like we just did on the index page.</p>
+        <p><img src="graphics/index3.jpg" alt="index" />and  <img src="graphics/index4.jpg" alt="index" /></p></p>
+        <p>Then we have to add the routes on the index.js page</p>
+         <p><img src="graphics/index5.jpg" alt="index" /></p>
+         <h2>Make the Title - appear in the tab</h2>
+         <p><img src="graphics/tab.jpg" alt="tab" /></p>
+         <p>When you save and test - notice it doesn't work yet</p>
+         <p>We need to add it to our template.pug page - remember to add equal sign and use back ticks</p>
+          <p><img src="graphics/tab2.jpg" alt="tab" /></p>
+          <p>Save and test</p>
+          <p><img src="graphics/tab3.jpg" alt="tab" /></p>
+
+
+</body>
+</html>
